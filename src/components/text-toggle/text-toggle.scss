@@ -1,5 +1,45 @@
 text-toggle {
+    
     .selected {
         font-weight: bold;
+        background: #5CBCB9;
+        color: #CBE9E8;
+        border-radius: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+        
     }
+    .toggle {
+        position: relative;
+        display: inline-block;
+        background: #F5F6F9;
+        color: #C4CAD8;
+        font-size: 12px;
+        border-radius: 15px;
+        width: 140px;
+       
+      }
+      .toggle-slide{
+
+        width: 50%;
+        float: left;
+        border-radius: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        transition: .6s; 
+    }
+    span{
+               
+        display: block;
+        text-align: center;
+
+    }
+
+    
+   
+
+    
+     
+      
 }

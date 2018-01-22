@@ -12,4 +12,12 @@
     <p *ngSwitchCase="'Today'">Today Content</p>
     <p *ngSwitchCase="'Week'">Week Content</p>
   </div>
+
+  <text-toggle [(selected)]="segment1" left="Weeks" right="Month"></text-toggle>
+  <div [ngSwitch]="segment1">
+    <p *ngSwitchCase="'Weeks'">Weeks Content</p>
+    <p *ngSwitchCase="'Month'">Month Content</p>
+  </div>
+  
+  
 </ion-content>

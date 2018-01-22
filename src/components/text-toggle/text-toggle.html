@@ -1,4 +1,5 @@
-<div>
-  <span (click)="clickLeft()" [ngClass]="{'selected': isSelected(left)}">{{ left }}</span>
-  <span (click)="clickRight()" [ngClass]="{'selected': isSelected(right)}">{{ right }}</span>
+<div class="toggle">
+  <div class="toggle-slide" (click)="clickLeft()" [ngClass]="{'selected': isSelected(left)}"><span class="slider" >{{ left }}</span></div>
+  <div class="toggle-slide" (click)="clickRight()" [ngClass]="{'selected': isSelected(right)}"><span class="slider" >{{ right }}</span></div>
+  
 </div>
